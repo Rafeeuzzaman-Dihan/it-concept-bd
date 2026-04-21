@@ -7,11 +7,10 @@ const currentYear = new Date().getFullYear()
     <div class="container mx-auto px-6">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div class="md:col-span-2">
-          <a href="#" class="text-2xl font-bold tracking-tight text-text-primary flex items-center gap-2 mb-4">
-            <span class="w-8 h-8 rounded bg-primary-red flex items-center justify-center text-white text-sm">IT</span>
-            <span>Concept BD</span>
+          <a href="#" class="text-2xl font-bold tracking-tight text-text-primary flex items-center gap-3 group">
+            <img src="/logo.jpeg" alt="IT Concept BD Logo" class="h-14 w-auto object-contain rounded" />
           </a>
-          <p class="text-text-secondary text-sm max-w-sm leading-relaxed">
+          <p class="pt-2 text-text-secondary text-sm max-w-sm leading-relaxed">
             Delivering top-tier IT solutions and digital excellence for modern businesses. Build your future with our expertise.
           </p>
         </div>

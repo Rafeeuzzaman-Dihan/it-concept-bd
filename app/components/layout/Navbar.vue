@@ -44,9 +44,8 @@ onUnmounted(() => {
   >
     <div class="container mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
-      <a href="#" @click.prevent="handleNavClick('home')" class="text-2xl font-bold tracking-tight text-text-primary flex items-center gap-2 group">
-        <span class="w-8 h-8 rounded bg-primary-red flex items-center justify-center text-white">IT</span>
-        <span>Concept <span class="text-text-secondary group-hover:text-text-primary transition-colors">BD</span></span>
+      <a href="#" @click.prevent="handleNavClick('home')" class="text-2xl font-bold tracking-tight text-text-primary flex items-center gap-3 group">
+        <img src="/logo.jpeg" alt="IT Concept BD Logo" class="h-12 w-auto object-contain rounded" />
       </a>
 
       <!-- Desktop Nav -->
